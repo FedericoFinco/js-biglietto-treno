@@ -21,6 +21,7 @@ bottone.addEventListener("click", function () {
     prezzoBiglietto = tariffa * parseInt(km.value);
     tipoBiglietto = "Biglietto Standard";
   }
+  console.log("Nominativo: ", nome.value)
   console.log("Prezzo: ", prezzoBiglietto);
   console.log("Tipologia biglietto: ", tipoBiglietto);
   console.log("codice cp: ", Math.floor(Math.random() * 100000));
