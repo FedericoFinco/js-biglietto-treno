@@ -32,6 +32,7 @@
           <div class="col-3 bgDebug1 text-center">
             <h4>Fascia d'età</h4>
             <select class="w-100" name="fasciaEtà" id="select-eta">
+              <option value="" disabled selected>seleziona la fascia</option>
               <option value="minorenne">minorenne</option>
               <option value="maggiorenne">maggiorenne</option>
               <option value="over65">over 65</option>
@@ -54,6 +55,33 @@
           <div class="col-2 text-center">
             <button class="w-75" id="button-back">Annulla</button>
           </div> 
+        </div>
+      </div>
+      <div class="container-fluid text-white text-center mt-5 mb-3">
+        <h2>IL TUO BIGLIETTO</h2>
+      </div>
+      <div id="output-biglietto" class="container rounded bgSecondary p-2 d-none">
+        <div class="row bgDebug1 m-3">
+          <div class="col-3 bgGrey1">
+            <h3>Nome Passeggero</h3>
+            <h4 class="mt-5" id="nome-passeggero"></h4>
+          </div>
+          <div class="col-3 bgGrey2">
+            <h5 class="mt-2">Offerta</h5>
+            <h5 class="mt-5" id="tipo-biglietto"></h5>
+          </div>
+          <div class="col-2 bgGrey1">
+            <h5 class="mt-2">Carrozza</h5>
+            <h5 class="mt-5" id="num-carrozza"></h5>
+          </div>
+          <div class="col-2 bgGrey2">
+            <h5 class="mt-2">Codice CP</h5>
+            <h5 class="mt-5" id="codice-cp"></h5>
+          </div>
+          <div class="col-2 bgGrey1">
+            <h5 class="mt-2">Costo biglietto</h5>
+            <h5 class="mt-5" id="prezzo-biglietto"></h5>
+          </div>
         </div>
       </div>
 

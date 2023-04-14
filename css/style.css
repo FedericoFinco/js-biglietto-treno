@@ -6,6 +6,17 @@ body{
     background-color: #5865f2;
 }
 
-.bgDebug1{
+/* .bgDebug1{
     background-color: aqua;
+} */
+
+.bgSecondary{
+    background-color: #fb542b;
+}
+
+.bgGrey1{
+    background-color: #75757581;
+}
+.bgGrey2{
+    background-color: #a4a4a481;
 }
